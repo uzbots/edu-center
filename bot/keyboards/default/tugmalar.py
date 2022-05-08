@@ -25,3 +25,18 @@ mainButton = types.ReplyKeyboardMarkup(
         ]
     ]
 )
+
+tasdiqlashBtn = types.InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            types.InlineKeyboardButton(
+                text="Xa",
+                callback_data="yes"
+            ),
+            types.InlineKeyboardButton(
+                text="Yo'q",
+                callback_data="no"
+            )
+        ]
+    ]
+)
